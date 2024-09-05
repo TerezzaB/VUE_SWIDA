@@ -14,7 +14,7 @@
           />
           <p v-if="emailError" class="font-bold text-pink-800 text-sm mt-1">Please enter a valid email address.</p>
         </div>
-        <div class="mb-10">
+        <div>
           <label for="password" class="font-bold block mb-2">Password:</label>
           <input
             v-model="password"
@@ -26,7 +26,7 @@
           <p v-if="passwordError" class="font-bold text-pink-800 text-sm mt-1">Password cannot be empty.</p>
         </div>
         <div>
-          <button type="submit" class="block mt-10 w-full bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white py-2 rounded-lg hover:opacity-90 transition-opacity">
+          <button type="submit" class="mt-20 w-full bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white py-2 rounded-lg hover:opacity-90 transition-opacity">
             Login
           </button>
         </div>
