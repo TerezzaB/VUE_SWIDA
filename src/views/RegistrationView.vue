@@ -4,15 +4,15 @@
       <form @submit.prevent="handleRegister">
         <div>
           <label for="name">Name:</label>
-          <input v-model="name" id="name" type="text" />
+          <input v-model="name" id="name" type="text" class="bg-transparent"/>
         </div>
         <div>
           <label for="email">Email:</label>
-          <input v-model="email" id="email" type="email" />
+          <input v-model="email" id="email" type="email" class="bg-transparent"/>
         </div>
         <div>
           <label for="password">Password:</label>
-          <input v-model="password" id="password" type="password" />
+          <input v-model="password" id="password" type="password" class="bg-transparent"/>
         </div>
         <button type="submit">Register</button>
       </form>

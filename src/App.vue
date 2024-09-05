@@ -1,8 +1,8 @@
 <template>
-  <div id="app" class="min-h-screen bg-gray-100">
-    <nav class="p-4 bg-blue-600 text-white">
+  <div id="app" class="min-h-screen text-white">
+    <nav class="p-4 border-b-2 border-violet-500">
       <div class="container mx-auto flex justify-between">
-        <h1 class="text-lg font-bold">My Vue App</h1>
+        <h1 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-fuchsia-500">My Vue App</h1>
         <div>
           <router-link to="/login" class="px-4">Login</router-link>
           <router-link to="/register" class="px-4">Registration</router-link>
@@ -20,5 +20,4 @@
 </script>
 
 <style>
-
 </style>
